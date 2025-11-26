@@ -7,6 +7,8 @@ cover_image: ./assets/banner.jpg
 canonical_url: null
 ---
 
+# Host Your Node.js MCP Server on Azure Functions in 3 Simple Steps
+
 Building AI agents with the Model Context Protocol (MCP) is powerful, but when it comes to hosting your MCP server in production, you need a solution that's reliable, scalable, and cost-effective. What if you could deploy your regular Node.js MCP server to a serverless platform that handles scaling automatically while you only pay for what you use?
 
 Let's explore how Azure Functions now supports hosting MCP servers built with the official Anthropic MCP SDK, giving you serverless scaling with almost no changes in your code.

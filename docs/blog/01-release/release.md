@@ -9,6 +9,8 @@ id: 2944143
 date: '2025-10-21T16:09:46Z'
 ---
 
+# Serverless MCP Agent with LangChain.js v1 — Burgers, Tools, and Traces 🍔
+
 AI agents that can actually do stuff (not just chat) are the fun part nowadays, but wiring them cleanly into real APIs, keeping things observable, and shipping them to the cloud can get... messy. So we built a fresh end‑to‑end sample to show how to do it right with the brand new **LangChain.js v1** and **Model Context Protocol (MCP)**. In case you missed it, MCP is a recent open standard that makes it easy for LLM agents to consume tools and APIs, and LangChain.js, a great framework for building GenAI apps and agents, has first-class support for it.
 
 This new sample gives you:
