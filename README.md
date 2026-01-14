@@ -2,6 +2,8 @@
 
 <img src="./packages/agent-webapp/public/favicon.png" alt="" align="center" height="64" />
 
+[Doc d'origine](https://aka.ms/mcp-agent-2026)
+
 # AI Agent with MCP tools using LangChain.js
 
 [![Open in Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/Azure-Samples/mcp-agent-langchainjs?hide_repo_select=true&ref=main&quickstart=true)
