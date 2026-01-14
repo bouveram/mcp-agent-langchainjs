@@ -15,16 +15,6 @@ services:
     language: ts
     host: function
 
-  burger-webapp:
-    project: ./packages/burger-webapp
-    dist: dist
-    language: ts
-    host: staticwebapp
-    # Needed to get the BURGER_API_URL env var set
-    hooks:
-      predeploy:
-        run: npm run build
-
   agent-api:
     project: ./packages/agent-api
     language: ts
@@ -39,5 +29,4 @@ services:
 hooks:
   postprovision:
     run: azd env get-values > .env
-  postup:
-    run: npm run -s env
+

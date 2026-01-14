@@ -5,34 +5,17 @@
 
 @api_host = http://localhost:7072
 
-### Get user info, should return 401
-GET {{api_host}}/api/me
-
-### Get user info
-GET {{api_host}}/api/me
-x-ms-client-principal: eyJ1c2VySWQiOiJfX3Rlc3RfdXNlcl9fIn0=
-
 ### Chat with the agent
-POST {{api_host}}/api/chats/stream?userId=1
+POST {{api_host}}/api/chats/stream
 Content-Type: application/json
 
 {
   "messages": [
     {
-      "content": "What is there on the menu?",
+      "content": "Do you have spicy burgers?",
       "role": "user"
     }
-  ],
-  "context": {
-    "sessionId": "123"
-  }
+  ]
 }
 
-### Retrieve all chat sessions
-GET {{api_host}}/api/chats?userId=1
 
-### Retrieve a chat session
-GET {{api_host}}/api/chats/123?userId=1
-
-### Delete a chat session
-DELETE {{api_host}}/api/chats/123?userId=1

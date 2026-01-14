@@ -3,7 +3,7 @@
   "configurations": {
     "api": {
       "appLocation": ".",
-      "run": "npm run swa:start",
+      "run": "npm run dev",
       "appDevserverUrl": "http://localhost:5174",
       "apiDevserverUrl": "http://localhost:7072",
       "appBuildCommand": "npm run build",
