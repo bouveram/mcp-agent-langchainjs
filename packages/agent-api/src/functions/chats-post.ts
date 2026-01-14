@@ -72,7 +72,7 @@ export async function postChats(request: HttpRequest, context: InvocationContext
       configuration: { baseURL: azureOpenAiEndpoint },
       modelName: process.env.AZURE_OPENAI_MODEL ?? 'gpt-5-mini',
       streaming: true,
-      useResponsesApi: true,
+      // useResponsesApi: true,
       apiKey: getAzureOpenAiTokenProvider(),
     });
 

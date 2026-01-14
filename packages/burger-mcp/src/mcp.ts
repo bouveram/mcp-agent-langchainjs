@@ -127,7 +127,7 @@ export function getMcpServer() {
           .array(
             z.object({
               burgerId: z.string().describe('ID of the burger'),
-              quantity: z.number().min(1).describe('Quantity of the burger'),
+              quantity: z.number().min(1).max(5).describe('Quantity of the burger'),
               extraToppingIds: z.array(z.string()).describe('List of extra topping IDs'),
             }),
           )
